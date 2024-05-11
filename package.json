@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "dev-css": "unocss --watch",
+    "build-css": "unocss"
   },
   "private": true,
   "dependencies": {
